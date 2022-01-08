@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  border: 1px solid red;
+  
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  /* gap: 20px; */
+  
+}
+.content > div {
+  margin-left: 40px;
+  text-align: left;
+}
+
+table  input{
+  width: 200px;
+  height: 30px;
+}
+
+.right-table > table{
+  border: 1px solid rgb(143, 86, 207);
+}
+
+.right-table > table td, th{
+  width: 130px;
+  border: 1px solid rgb(143, 86, 207);
+}
+
+.checkbox > input{
+  width: 15px;
+  height: 15px;
+}
+
+img{
+  width: 70px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
